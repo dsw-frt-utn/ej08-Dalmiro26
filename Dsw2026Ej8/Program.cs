@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ProductHelper p = new ProductHelper();
+
+            string etiqueta = p.ObtenerEtiquetaProducto(342, "Zapatilla", 190000.00m);
+        
+            Console.WriteLine(etiqueta);
         }
     }
 }
