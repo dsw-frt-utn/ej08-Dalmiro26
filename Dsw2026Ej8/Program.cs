@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            ProductHelper p = new ProductHelper();
+            Problema2 p = new Problema2();
 
-            string etiqueta = p.ObtenerEtiquetaProducto(342, "Zapatilla", 190000.00m);
+            string etiqueta = p.CrearResumenVenta(342, "Zapatilla", 5, 190000.00m);
         
             Console.WriteLine(etiqueta);
         }
