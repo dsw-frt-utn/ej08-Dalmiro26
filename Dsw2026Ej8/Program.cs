@@ -4,14 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Problema5 p = new Problema5();
+            Problema6 p = new Problema6();
 
-            RetailSale retailSale = new RetailSale(100);
+            string resultado = p.NormalizarCodigoProducto("HsY 98 Mf4d2");
 
-            WholesaleSale wholesaleSale = new WholesaleSale(80);
-
-            Console.WriteLine(p.ObtenerImporteFinal(retailSale));
-            Console.WriteLine(p.ObtenerImporteFinal(wholesaleSale));
+            Console.WriteLine(resultado);
         }
     }
 }
