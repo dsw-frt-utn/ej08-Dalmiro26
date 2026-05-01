@@ -4,11 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Problema2 p = new Problema2();
+            Problema5 p = new Problema5();
 
-            string etiqueta = p.CrearResumenVenta(342, "Zapatilla", 5, 190000.00m);
-        
-            Console.WriteLine(etiqueta);
+            RetailSale retailSale = new RetailSale(100);
+
+            WholesaleSale wholesaleSale = new WholesaleSale(80);
+
+            Console.WriteLine(p.ObtenerImporteFinal(retailSale));
+            Console.WriteLine(p.ObtenerImporteFinal(wholesaleSale));
         }
     }
 }

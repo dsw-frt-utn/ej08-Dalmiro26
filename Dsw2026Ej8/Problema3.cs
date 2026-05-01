@@ -6,7 +6,7 @@ namespace Dsw2026Ej8
 {
     internal partial class Problema3
     {
-
+        /*
         public string CompararCopias(int originalValue, Product product)
         {
             int copia = originalValue;
@@ -20,6 +20,6 @@ namespace Dsw2026Ej8
             return $"{originalValue} - {copia} - {}";
 
         }
-
+        */
     }
 }
