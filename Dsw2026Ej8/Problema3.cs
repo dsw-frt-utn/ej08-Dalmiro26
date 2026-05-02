@@ -6,7 +6,6 @@ namespace Dsw2026Ej8
 {
     internal partial class Problema3
     {
-        /*
         public string CompararCopias(int originalValue, Product product)
         {
             int copia = originalValue;
@@ -15,11 +14,10 @@ namespace Dsw2026Ej8
 
             Product copiaProducto = product;
 
-            copiaProducto;
+            copiaProducto.SetDescripcion("Nueva Descripcion.");
 
-            return $"{originalValue} - {copia} - {}";
+            return $"{originalValue} - {copia} - {copiaProducto.GetDescripcion()}";
 
         }
-        */
     }
 }

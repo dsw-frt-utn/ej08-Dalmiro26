@@ -4,9 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Problema6 p = new Problema6();
+            Problema3 p = new Problema3();
+            Product producto = new Product();   
 
-            string resultado = p.NormalizarCodigoProducto("HsY 98 Mf4d2");
+            producto.SetDescripcion("Primera descripcion");
+            string resultado = p.CompararCopias(2, producto);
 
             Console.WriteLine(resultado);
         }
