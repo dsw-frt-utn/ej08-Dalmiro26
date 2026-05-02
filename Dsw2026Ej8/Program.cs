@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Problema3 p = new Problema3();
+            Product producto = new Product();   
+
+            producto.SetDescripcion("Primera descripcion");
+            string resultado = p.CompararCopias(2, producto);
+
+            Console.WriteLine(resultado);
         }
     }
 }
